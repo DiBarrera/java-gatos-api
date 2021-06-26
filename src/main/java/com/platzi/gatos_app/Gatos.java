@@ -10,16 +10,16 @@ package com.platzi.gatos_app;
  * @author diegobarrera
  */
 public class Gatos {
-    int id;
+    String id;
     String url;
     String apikey = "5e968067-3494-4174-92fd-56f674624440";
     String image;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
